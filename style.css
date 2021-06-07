@@ -1,5 +1,5 @@
 @font-face {
-    font-family: SellenMK;
+    font-family: SnellenMK;
     src: url(Snellen.otf);
 }
 body {
@@ -27,7 +27,7 @@ body {
 .content {
     width: 100%;
     height: 100%;
-    font-family: SellenMK;
+    font-family: SnellenMK;
     display: flex;
     flex-direction: row;
     align-items: center;
