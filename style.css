@@ -1,0 +1,47 @@
+@font-face {
+    font-family: SellenMK;
+    src: url(Snellen.otf);
+}
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2px;
+}
+.left-num {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* border-style: dashed; */
+    border-width: 2px;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    font-family: SellenMK;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border-style: dashed; */
+    border-width: 2px;
+}
+.right-num {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    /* border-style: dashed; */
+    border-width: 2px;
+}
