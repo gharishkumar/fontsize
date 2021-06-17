@@ -2,13 +2,25 @@
     font-family: SnellenMK;
     src: url(Snellen.otf);
 }
-body {
-    height: 100vh;
+body{
+    background:
+        linear-gradient(135deg, rgb(250, 170, 148), rgba(255,0,0,0) 60%),
+        linear-gradient(45deg, rgb(214, 120, 151), rgba(0,0,255,0) 60%),
+        linear-gradient(225deg, rgb(108, 184, 219), rgba(0,255,0,0) 60%),
+        linear-gradient(315deg, rgb(150, 98, 199) , rgba(0,255,0,0) 60%);
+    color: rgb(51, 51, 51);
+    min-height: 100vh;
+    padding: 0;
     margin: 0;
+    overflow: hidden;
     display: flex;
     flex-direction: column;    
     justify-content: center;
 }
+#_6-60 {
+  font-size: 20px;  
+}
+
 .row {
     display: flex;
     flex-direction: row;
