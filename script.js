@@ -12,6 +12,7 @@ window.addEventListener("load",  function afterload(){
     for(var i=1; i < contents.length; i++) {
         contents[i].style.fontSize = ((contents[0].style.fontSize.slice(0, -2) - 0) *size[i] ) + 'px';
     }
+    document.body.style.display = 'flex';
     document.onkeydown = checkKey;
     function checkKey(e) {
         e = e || window.event;
