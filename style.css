@@ -35,7 +35,7 @@ body{
     flex-direction: row;
     align-items: center;
     /* padding-bottom: 2px; */
-    border-style: dashed;
+/*     border-style: dashed; */
     border-width: 2px;
 }
 .left-num {
